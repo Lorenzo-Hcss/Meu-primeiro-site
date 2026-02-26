@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #023e8a;
+  color: #caf0f8;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+.logo {
+  color: #90e0ef;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+}
+.hero {
+  height: 100vh;
+  background: #0077b6;
+}
+.hero-container {
+  text-align: center;
+  margin-top: 3em;
+}
+.intro {
+  color: #03045e;
+  margin-bottom: 10px;
+}
+.hero-container h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.descricao {
+  color:
+}
+#sobre {
+  height: 100vh;
+  padding: 1em;
+}
+#sobre h2 {
+  color: #0096c7;
+  text-align: center;
+  margin: auto;
+}
