@@ -1,83 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Projeto final</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <header class="hero">
-      <nav class="navbar">
-        <h1 class="logo">MEUportfólio</h1>
-        <ul class="menu">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#habilidade">Habilidade</a></li>
-          <li><a href="#contato">Contatos</a></li>
-        </ul>
-      </nav>
-      <div class="hero-container">
-        <h2 class="intro">olá, eu sou</h2>
-        <h1>Lorenzo H</h1>
-        <h3 class="descricao">Dev FrontEnd, bom em CSS</h3>
-        <img
-          src="images/img1.jpeg"
-          alt="minha imagem"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Projeto final</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- oi! só para avisar:
+ID separa sections mais importantes como sobre, projetos e 
+class para sections menos importantes!!!
+espero que não tenha ficado confuso.-->
+
+<body>
+  <nav class="navbar">
+    <h1 class="logo">MEUportfólio</h1>
+    <ul class="menu">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidade">Habilidade</a></li>
+      <li><a href="#contatos">Contatos</a></li>
+    </ul>
+  </nav>
+  <main class="hero-container">
+    <h2 class="intro">Olá, eu sou</h2>
+    <h1>Lorenzo H</h1>
+    <h3 class="descricao">Dev Front-End</h3>
+    <img class="imagemminha" src="images/img1.jpeg" alt="minha imagem" />
+  </main>
+  </header>
+  <section id="sobre">
+    <h1 class="titulo-sobre">Sobre mim</h1>
+    <div class="sobre-texto">
+      <p>Olá, sou Lorenzo Haeser, tenho 15 anos e estou no Ensino Médio, comecei a programar não faz muito tempo, mas já
+        peguei o jeito,
+        amei programação quando fiz minha primeira aula de programação no programa do SCtec.</p>
+      <p>Comecei a fazer as aulas por recomendação de um amigo e adorei programar, principalmente a parte do CSS. Já até
+        estamos vendo
+        para fazer uma equipe! E este site é totalmente meu, feito com carinho.
+      </p>
+    </div>
+    <section class="sobre-dados">
+      <div>
+        <strong>+40</strong>
+        <span> horas de experiência</span>
       </div>
-    </header>
-    <section id="#sobre">
-      <h1 class="titulo-sobre">Sobre mim</h1>
-      <div class="sobre-texto">
-        <p>e</p>
-        <p>e</p>
+      <div>
+        <strong>+2</strong>
+        <span>projetos concluidos</span>
       </div>
-      <section class="sobre-dados">
-        <div>
-          <strong>+40</strong>
-          <span> horas de experiência</span>
-        </div>
-        <div>
-          <strong>+2</strong>
-          <span>projetos concluidos</span>
-        </div>
-      </section>
     </section>
-    <section id="#projetos">
-      <h2 class="#projetos-titulo">meus Projetos</h2>
-      <div class="projetos-container">
-        <img src="" alt="A imagem não carregou :[" />
+  </section>
+  <section id="projetos">
+    <h2 class="projetos-titulo">Meus Projetos</h2>
+    <div class="projetos-container">
+      <div class="card">
+        <img src="images/img2.jpeg" alt="imagem de um computador com programação" />
         <h2>Teste clinica</h2>
         <p>um treino como nossos projetos ficarão (fiz a parte CSS)</p>
-        <a href="dfdxf">clique para ver</a>
+        <a href="fururo.link">clique para ver(não esta finalizado)</a>
       </div>
-      <div class="projetos-container2">
-        <img src="" alt="Não carregou, mas é só ver esse site!" />
-        <h2>MEUPORTFÒLIO</h2>
+      <div class="card">
+        <img src="images/img2.jpeg" alt="imagem de um computador com programação" />
+        <h2>MEUPORTFóLIO</h2>
         <p>Este site!</p>
       </div>
+    </div>
+  </section>
+  <section id="habilidade">
+    <h2 class="habilidades-titulo">Habilidades técnicas</h2>
+    <p>tecnologias e ferramentas que utilizo para criar</p>
+    <section class="habilidades-lista">
+      <div class="HTML">
+        <h1>HTML</h1>
+        <span>Iniciante</span>
+      </div>
+      <div class="CSS">
+        <h1>CSS</h1>
+        <span>iniciante</span>
+      </div>
+      <div class="Javascript">
+        <h1>Javascript</h1>
+        <span>iniciante</span>
+      </div>
     </section>
-    <section id="#habilidade">
-      <h2>Habilidades técnicas</h2>
-      <p>tecnologias e ferramentas que utilizo e sou bom</p>
-      <section class="habilidades-lista">
-        <div class="HTML">
-          <h3>HTML</h3>
-          <span>Iniciante</span>
-        </div>
-        <div class="CSS">
-          <h3>CSS</h3>
-          <span>iniciante</span>
-        </div>
-        <div class="Javascript">
-          <h3>Javascript</h3>
-          <span>iniciante</span>
-        </div>
-        <p class="extra">já sei bem o basico e pretendo melhorar ainda mais!</p>
-      </section>
+    <span class="extra">Já sei bem o basico e pretendo melhorar ainda mais!</span>
+  </section>
+  <section id="contatos">
+    <h1 class="contatos-titulo"> Entre em contato </h1>
+    <h3 id="subtitulo">Alguma ideia? Entre em contato!</h3>
+    <section class="contatos-lista">
+      <div id="contato-email">
+        <strong>Email:</strong>
+        <span>lorenzohaesermartinago@gmail.com</span>
+      </div>
+      <div id="contato-tel">
+        <strong>telefone:</strong>
+        <span> (47)98835-6857 </span>
+      </div>
+      <div id="redes">
+        <a href="https://github.com/Lorenzo-Hcss/"> Meu github </a>
+        <a href="https://www.linkedin.com/in/lorenzo-h-4a69a13b3/"> Meu linkedin </a>
+      </div>
     </section>
-  </body>
+    <footer class="footer">
+      <span>Lorenzo H 2026 © </span>
+    </footer>
+  </section>
+</body>
+
 </html>
+ 
